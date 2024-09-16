@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#work">
-            <p onClick={() => setMenu("work")}>My Work</p>
+            <p onClick={() => setMenu("work")}>Projects</p>
           </AnchorLink>
           {menu === "services" ? <img src={underline} alt="" /> : <></>}
         </li>

@@ -122,6 +122,11 @@
   transition: 0.3s;
 }
 
+.contact-details a{
+  text-decoration: none;
+  color: white;
+}
+
 @media(max-width:768px){
   .contact{
     gap: 50px;

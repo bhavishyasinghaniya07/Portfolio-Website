@@ -53,6 +53,8 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
+  
 }
 
 .about-skill{
@@ -71,7 +73,7 @@
 .about-skill hr{
   outline: none;
   border: none;
-  width: 50%;
+  width: 70%;
   height: 8px;
   border-radius: 50px;
   background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
@@ -118,6 +120,30 @@
   cursor: pointer;
 }
 
+.education{
+  display: flex;
+  justify-content:left;
+  gap: 100px;
+}
+
+.edu h3{
+  margin-bottom: 5px;
+
+}
+.edu p{
+  margin-bottom: 5px;
+
+}
+
+.head{
+  font-size: 40px;
+  font-weight: 700;
+  background: linear-gradient(270deg , #DF8908 80%, #B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media(max-width:768px){
   .about{
     gap: 80px;
@@ -158,6 +184,13 @@
 
   .about-skill hr{
     height: 6px;
+  }
+
+  .education{
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    gap: 100px;
   }
 
   .about-achivements{

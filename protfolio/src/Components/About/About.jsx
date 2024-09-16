@@ -22,21 +22,66 @@ const About = () => {
               Express.js, and MongoDB, and I’m excited about the endless
               possibilities in web development.
             </p>
+            <p>
+              I also have a strong command of Data Structures and Algorithms
+              (DSA), Database Management Systems (DBMS), Operating Systems, and
+              Computer Networking.
+            </p>
+            <p>
+              I'm also a member of the Rubik's Club at NIT Bhopal and, aside
+              from my technical skills, I have expertise in photography and
+              videography.
+            </p>
           </div>
-          <div className="about-skills">
-            <div className="about-skill">
-              <p>HTML & CSS</p> <hr style={{ width: "60%" }} />
-            </div>
-            <div className="about-skill">
-              <p>JavaScript</p> <hr style={{ width: "50%" }} />
-            </div>
-            <div className="about-skill">
-              <p>ReactJS</p> <hr style={{ width: "30%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Java</p> <hr style={{ width: "70%" }} />
-            </div>
-          </div>
+        </div>
+      </div>
+
+      <div className="about-skills">
+        <div className="about-skill">
+          <p>Java</p> <hr style={{ width: "80%" }} />
+        </div>
+        <div className="about-skill">
+          <p>HTML & CSS</p> <hr style={{ width: "80%" }} />
+        </div>
+        <div className="about-skill">
+          <p>TailWind</p> <hr style={{ width: "65%" }} />
+        </div>
+        <div className="about-skill">
+          <p>JavaScript</p> <hr style={{ width: "75%" }} />
+        </div>
+        <div className="about-skill">
+          <p>ReactJS</p> <hr style={{ width: "60%" }} />
+        </div>
+        <div className="about-skill">
+          <p>NodeJS</p> <hr style={{ width: "15%" }} />
+        </div>
+        <div className="about-skill">
+          <p>ExpressJS</p> <hr style={{ width: "10%" }} />
+        </div>
+        <div className="about-skill">
+          <p>MongoDB</p> <hr style={{ width: "20%" }} />
+        </div>
+        <div className="about-skill">
+          <p>SQL</p> <hr style={{ width: "50%" }} />
+        </div>
+        <div className="about-skill">
+          <p>Git & GitHub</p> <hr style={{ width: "60%" }} />
+        </div>
+      </div>
+
+      <h1 className="head">Education : </h1>
+      <div className="education">
+        <div className="edu">
+          <h2>Maulana Azad National Institute Of Technology , Bhopal</h2>
+          <h3>Master Of Computer Application</h3>
+          <p> July 2023 - July 2026</p>
+          <p> 8.12 CGPA</p>
+        </div>
+        <div className="edu">
+          <h2>Devi Ahilya University , Indore </h2>
+          <h3>Bachelor Of Computer Application</h3>
+          <p> July 2019 - July 2022</p>
+          <p> 8.30 CGPA</p>
         </div>
       </div>
       <div className="about-achivements">
