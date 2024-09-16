@@ -15,7 +15,7 @@ const mywork_data = [
         w_detail: "Rent A Ride is a web application designed to make car rentals in Bhopal easy and affordable. Users can browse available vehicles for traveling or other purposes at competitive rates.  ",
         w_detail2 : "clean interface, built using HTML, CSS, JavaScript, and React. The project focuses on delivering a practical and user-friendly solution for local car rentals, allowing customers to conveniently book cars in just a few clicks.",
         w_title : "01  Rent A Ride",
-        w_link : ""
+        w_link : "https://inquisitive-jalebi-d0b1be.netlify.app/"
 
     },
     {
