@@ -1,44 +1,49 @@
-
-import myntra1 from '../assets/project_3.png'
-import rover1 from '../assets/project_5.png'
-import rent1 from '../assets/rent1.png'
-import myntra2 from '../assets/myntra2.png'
-import rover2 from '../assets/rover2.png'
-import rent2 from '../assets/rent3.png'
+import notes1 from "../assets/notes1.png";
+import event1 from "../assets/event1.png";
+import trip1 from "../assets/trip1.png";
+import notes2 from "../assets/notes2.png";
+import event2 from "../assets/event2.png";
+import trip2 from "../assets/trip2.png";
 
 const mywork_data = [
-    {
-        w_no:6,
-        w_name:"Web design",
-        w_img:rent1,
-        w_img2:rent2,
-        w_detail: "Rent A Ride is a web application designed to make car rentals in Bhopal easy and affordable. Users can browse available vehicles for traveling or other purposes at competitive rates.  ",
-        w_detail2 : "clean interface, built using HTML, CSS, JavaScript, and React. The project focuses on delivering a practical and user-friendly solution for local car rentals, allowing customers to conveniently book cars in just a few clicks.",
-        w_title : "01  Rent A Ride",
-        w_link : "https://inquisitive-jalebi-d0b1be.netlify.app/"
+  {
+    w_no: 6,
+    w_name: "Web design",
+    w_img: notes1,
+    w_img2: notes2,
+    w_detail:
+      "Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind CSS, Cloudinary, Google OAuth .",
+    w_detail2:
+      " Developed a fully responsive web app enabling users to upload, update, delete, and download academic notes with Google authentication. Added advanced filters (college, course, semester, subject) and profile features like saved notes, like/comment system, and download tracking. Built a secure admin panel for note verification and user management; used by 100+ students. ",
+    w_title:
+      "01.  CampusNotes – Notes Sharing Platform for University Students ",
+    w_link: "https://campusnotes-amh9.onrender.com/",
+  },
+  {
+    w_no: 5,
+    w_name: "Web design",
+    w_img: trip1,
+    w_img2: trip2,
+    w_detail:
+      "Tech Stack: React.js, Node.js, Express.js, Firestore, Google Gemini API , Tailwind CSS.",
+    w_detail2:
+      "Designed an AI-powered platform that generates personalized, day-wise travel itineraries based on user preferences like destination, budget, accommodation, transport, and group type.  Enabled features like hotel recommendations, trip saving, Google Maps integration, and easy trip sharing for seamless travel planning.",
+    w_title:
+      "02.  TripGenie – AI-powered personalized travel planning platform",
+    w_link: "https://ai-trip-planner-umber-beta.vercel.app/",
+  },
+  {
+    w_no: 3,
+    w_name: "Web design",
+    w_img: event1,
+    w_img2: event2,
+    w_detail:
+      "Tech Stack: React.js, Node.js, Express.js, MySQL , Cloudinary, Google OAuth.",
+    w_detail2:
+      "  Developed a full-stack event management platform with features for venue and service bookings,  vendor registration, and real-time updates. Integrated role-based access and service filtering to enhance user experience and streamline event planning.",
+    w_title: "03.  Eventify – A streamlined event management system.",
+    w_link: "",
+  },
+];
 
-    },
-    {
-        w_no:5,
-        w_name:"Web design",
-        w_img:rover1,
-        w_img2:rover2,
-        w_detail: "Rover is a comprehensive website offering tour packages across India, designed to help travelers explore safely and affordably. With a focus on providing the best travel experiences, users can select from a variety of customizable packages that cater to their needs and budget. ",
-        w_detail2 : "The website ensures a user-friendly interface, built with HTML, CSS and JavaScript, making it easy to plan and book trips with just a few clicks. Rover prioritizes convenience and affordability, bringing safe and budget-friendly travel options to users across the country.",
-        w_title : "02  Rover",
-        w_link : "https://bhavishyasinghaniya07.github.io/Rover/"
-    },
-    {
-        w_no:3,
-        w_name:"Web design",
-        w_img:myntra1,
-        w_img2:myntra2,
-        w_detail: "The Myntra Clone is a front-end web project replicating the design and functionality of the popular e-commerce platform, Myntra. Built using HTML, CSS, JavaScript, and Tailwind, this project showcases a responsive and modern user interface, offering a smooth shopping experience.",
-        w_detail2 : " The clone captures the essence of the original platform with interactive features and visually appealing design elements, providing a practical demonstration of advanced front-end development techniques using Tailwind for efficient styling.",
-        w_title : "03  Myntra Clone",
-        w_link : "https://bhavishyasinghaniya07.github.io/Myntra-Clone/"
-    },
-    
-]
- 
 export default mywork_data;

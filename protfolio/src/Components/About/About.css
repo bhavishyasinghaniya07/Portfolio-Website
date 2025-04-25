@@ -122,8 +122,10 @@
 
 .education{
   display: flex;
+  flex-direction: column;
+
   justify-content:left;
-  gap: 100px;
+  gap: 20px;
 }
 
 .edu h3{

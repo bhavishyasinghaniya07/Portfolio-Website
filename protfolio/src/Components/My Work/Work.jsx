@@ -17,7 +17,11 @@ const Work = () => {
               <div>
                 <div className="heading">
                   <h2>{work.w_title}</h2>
+
                   <p>{work.w_detail}</p>
+                  <button className="mywork-button">
+                    <a href={work.w_link}>Visit Project</a>
+                  </button>
                 </div>
                 <div className="images">
                   <img key={index} src={work.w_img2} alt="" />
@@ -29,9 +33,6 @@ const Work = () => {
                 </div>
                 <div className="heading">
                   <p>{work.w_detail2}</p>
-                  <button>
-                    <a href={work.w_link}>Visit Project</a>
-                  </button>
                 </div>
               </div>
               <hr /> <hr />
@@ -39,10 +40,10 @@ const Work = () => {
           );
         })}
       </div>
-      <div className="mywork-showmore">
+      {/* <div className="mywork-showmore">
         <p>Show More</p>
         <img src={arrow_icon} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

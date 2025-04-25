@@ -46,7 +46,7 @@ const Navbar = () => {
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#footer">
-            <p onClick={() => setMenu("protfolio")}>Subscribe</p>
+            <p onClick={() => setMenu("protfolio")}>Links</p>
           </AnchorLink>
           {menu === "footer" ? <img src={underline} alt="" /> : <></>}
         </li>

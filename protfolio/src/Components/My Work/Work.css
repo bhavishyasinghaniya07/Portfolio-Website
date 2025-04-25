@@ -83,13 +83,13 @@
   border-radius: 10px;
   box-sizing: border-box;
   width: 500px;
-  height: 300px;
+  height: 270px;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .mywork-container img:hover{
-  transform: scale(1.01);
+  /* transform: scale(1.01); */
   border: 2px solid #ff00ff;
   border-radius: 10px;
   transition: 0.2s;
@@ -111,6 +111,18 @@
 .mywork-showmore:hover{
   gap: 30px;
   transition: 0.6s;
+}
+
+.mywork-button{
+
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s;
 }
 
 
